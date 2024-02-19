@@ -53,6 +53,7 @@ body {
   background-color: #1f2937;
   padding-top: 20px;
   border-radius: 0 0 5px 5px;
+  padding-bottom: 20px;
 }
 .metric-units {
   background-color: #273549;
