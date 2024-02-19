@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    user-select: none;
+    font-family: "Noto Sans Math", sans-serif;
+}
+#container {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+#header {
+    text-align: center;
+    background-color: #6943FF;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+#header-heading {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+#header-input {
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    border: 2px solid #B295FF;
+    text-align: center;
+    width: 130px;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #6943FF;
+    outline: none;
+}
+::placeholder {
+   color: #ffffffce; 
+}
+#header-btn {
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#units {
+    text-align: center;
+    background-color: #1F2937;
+    padding-top: 20px;
+    border-radius: 0 0 5px 5px;
+}
+.metric-units {
+    background-color: #273549;
+    margin: 10px 20px;
+    padding: 5px 0;
+}
+.metric-units h3 {
+    color: #CCC1FF;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+.metric-units h4 {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
